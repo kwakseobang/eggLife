@@ -12,14 +12,13 @@
 		D610F9702C3BD0920017407F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D610F96F2C3BD0920017407F /* Assets.xcassets */; };
 		D610F9732C3BD0920017407F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D610F9722C3BD0920017407F /* Preview Assets.xcassets */; };
 		D610F9812C3BD1FF0017407F /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D610F9802C3BD1FF0017407F /* SplashView.swift */; };
-		D610F9862C3BD7250017407F /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D610F9852C3BD7250017407F /* MainView.swift */; };
-		D610F9882C3BD9C10017407F /* FiltertViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D610F9872C3BD9C10017407F /* FiltertViewModel.swift */; };
 		D610F98C2C3BDA7F0017407F /* EggView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D610F98B2C3BDA7F0017407F /* EggView.swift */; };
 		D610F98E2C3BDB400017407F /* Egg.swift in Sources */ = {isa = PBXBuildFile; fileRef = D610F98D2C3BDB400017407F /* Egg.swift */; };
 		D610F9902C3BDC520017407F /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = D610F98F2C3BDC520017407F /* Time.swift */; };
-		D610F9922C3D22E40017407F /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D610F9912C3D22E40017407F /* MainViewModel.swift */; };
 		D610F9942C3D25C30017407F /* TimerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D610F9932C3D25C30017407F /* TimerViewModel.swift */; };
 		D610F9972C3D26410017407F /* Int+Extenstions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D610F9962C3D26410017407F /* Int+Extenstions.swift */; };
+		D610F9992C43D1380017407F /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D610F9982C43D1380017407F /* NotificationService.swift */; };
+		D610F99D2C43D2BD0017407F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D610F99C2C43D2BD0017407F /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,14 +28,13 @@
 		D610F96F2C3BD0920017407F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D610F9722C3BD0920017407F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D610F9802C3BD1FF0017407F /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
-		D610F9852C3BD7250017407F /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
-		D610F9872C3BD9C10017407F /* FiltertViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiltertViewModel.swift; sourceTree = "<group>"; };
 		D610F98B2C3BDA7F0017407F /* EggView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EggView.swift; sourceTree = "<group>"; };
 		D610F98D2C3BDB400017407F /* Egg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Egg.swift; sourceTree = "<group>"; };
 		D610F98F2C3BDC520017407F /* Time.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time.swift; sourceTree = "<group>"; };
-		D610F9912C3D22E40017407F /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 		D610F9932C3D25C30017407F /* TimerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewModel.swift; sourceTree = "<group>"; };
 		D610F9962C3D26410017407F /* Int+Extenstions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Extenstions.swift"; sourceTree = "<group>"; };
+		D610F9982C43D1380017407F /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		D610F99C2C43D2BD0017407F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +67,8 @@
 		D610F96A2C3BD08E0017407F /* EggLife */ = {
 			isa = PBXGroup;
 			children = (
+				D610F99B2C43D29A0017407F /* New Group */,
+				D610F99A2C43D2800017407F /* Service */,
 				D610F9952C3D26310017407F /* Extensions */,
 				D610F97C2C3BD15B0017407F /* Resources */,
 				D610F97E2C3BD1700017407F /* Domain */,
@@ -86,21 +86,11 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		D610F9792C3BD0A60017407F /* View */ = {
-			isa = PBXGroup;
-			children = (
-				D610F98B2C3BDA7F0017407F /* EggView.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
 		D610F97B2C3BD11A0017407F /* Presentaion */ = {
 			isa = PBXGroup;
 			children = (
 				D610F97F2C3BD1970017407F /* Root */,
 				D610F9822C3BD5F10017407F /* Main */,
-				D610F9842C3BD6C10017407F /* HardEgg */,
-				D610F9832C3BD6570017407F /* SoftEgg */,
 			);
 			path = Presentaion;
 			sourceTree = "<group>";
@@ -136,6 +126,7 @@
 				D610F96D2C3BD08E0017407F /* ContentView.swift */,
 				D610F96B2C3BD08E0017407F /* EggLifeApp.swift */,
 				D610F9802C3BD1FF0017407F /* SplashView.swift */,
+				D610F99C2C43D2BD0017407F /* AppDelegate.swift */,
 			);
 			path = Root;
 			sourceTree = "<group>";
@@ -149,27 +140,10 @@
 			path = Main;
 			sourceTree = "<group>";
 		};
-		D610F9832C3BD6570017407F /* SoftEgg */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = SoftEgg;
-			sourceTree = "<group>";
-		};
-		D610F9842C3BD6C10017407F /* HardEgg */ = {
-			isa = PBXGroup;
-			children = (
-				D610F9792C3BD0A60017407F /* View */,
-				D610F9932C3D25C30017407F /* TimerViewModel.swift */,
-			);
-			path = HardEgg;
-			sourceTree = "<group>";
-		};
 		D610F9892C3BD9F20017407F /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				D610F9872C3BD9C10017407F /* FiltertViewModel.swift */,
-				D610F9912C3D22E40017407F /* MainViewModel.swift */,
+				D610F9932C3D25C30017407F /* TimerViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -177,7 +151,7 @@
 		D610F98A2C3BD9F80017407F /* View */ = {
 			isa = PBXGroup;
 			children = (
-				D610F9852C3BD7250017407F /* MainView.swift */,
+				D610F98B2C3BDA7F0017407F /* EggView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -188,6 +162,21 @@
 				D610F9962C3D26410017407F /* Int+Extenstions.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D610F99A2C43D2800017407F /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				D610F9982C43D1380017407F /* NotificationService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		D610F99B2C43D29A0017407F /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,14 +252,13 @@
 				D610F9942C3D25C30017407F /* TimerViewModel.swift in Sources */,
 				D610F96E2C3BD08E0017407F /* ContentView.swift in Sources */,
 				D610F98E2C3BDB400017407F /* Egg.swift in Sources */,
-				D610F9862C3BD7250017407F /* MainView.swift in Sources */,
-				D610F9882C3BD9C10017407F /* FiltertViewModel.swift in Sources */,
 				D610F9902C3BDC520017407F /* Time.swift in Sources */,
+				D610F9992C43D1380017407F /* NotificationService.swift in Sources */,
 				D610F9972C3D26410017407F /* Int+Extenstions.swift in Sources */,
 				D610F98C2C3BDA7F0017407F /* EggView.swift in Sources */,
 				D610F96C2C3BD08E0017407F /* EggLifeApp.swift in Sources */,
+				D610F99D2C43D2BD0017407F /* AppDelegate.swift in Sources */,
 				D610F9812C3BD1FF0017407F /* SplashView.swift in Sources */,
-				D610F9922C3D22E40017407F /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
