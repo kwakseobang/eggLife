@@ -23,7 +23,7 @@ struct ContentView: View {
                         }
                     }
             } else {
-                MainView()
+                EggView()
             }
         }
         

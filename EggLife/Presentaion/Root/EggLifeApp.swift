@@ -6,12 +6,14 @@
 //
 
 import SwiftUI
-
+import UIKit
 @main
 struct EggLifeApp: App {
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+    
     var body: some Scene {
         WindowGroup {
-            SplashView()
+            ContentView()
         }
     }
 }
